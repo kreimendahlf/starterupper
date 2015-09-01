@@ -17,9 +17,9 @@ readonly UPSTREAM_USER=kreimendahlf
 
 # The instructor's user name at each project host
 # (comment out if you have no account on that host)
-#readonly INSTRUCTOR_BITBUCKET=lawrancej
-readonly INSTRUCTOR_GITHUB=lawrancej
-#readonly INSTRUCTOR_GITLAB=lawrancej
+#readonly INSTRUCTOR_BITBUCKET=kreimendahlf
+readonly INSTRUCTOR_GITHUB=kreimendahlf
+#readonly INSTRUCTOR_GITLAB=kreimendahl
 
 # The course repository name
 # Hint: subject-number-year-semester (NO SPACES ALLOWED)
