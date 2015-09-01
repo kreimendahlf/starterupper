@@ -13,17 +13,17 @@ readonly UPSTREAM_HOST=github.com
 #readonly UPSTREAM_HOST=bitbucket.org
 
 # The course repository username (i.e., the instructor username)
-readonly UPSTREAM_USER=lawrancej
+readonly UPSTREAM_USER=kreimendahlf
 
 # The instructor's user name at each project host
 # (comment out if you have no account on that host)
-readonly INSTRUCTOR_BITBUCKET=lawrancej
+#readonly INSTRUCTOR_BITBUCKET=lawrancej
 readonly INSTRUCTOR_GITHUB=lawrancej
-readonly INSTRUCTOR_GITLAB=lawrancej
+#readonly INSTRUCTOR_GITLAB=lawrancej
 
 # The course repository name
 # Hint: subject-number-year-semester (NO SPACES ALLOWED)
-readonly REPO=starterupper
+readonly REPO=COMP2270-2015
 
 # The domain of your school
 # (Used to guess student school email addresses)
@@ -35,7 +35,7 @@ readonly SCHOOL=wit.edu
 # Wherever we are, go home
 cd ~
 # Download starter upper
-curl -L https://github.com/lawrancej/starterupper/archive/master.zip 2> /dev/null > starterupper.zip
+curl -L https://github.com/kreimendahlf/starterupper/archive/master.zip 2> /dev/null > starterupper.zip
 # Extract
 # Try unzip
 unzip -o starterupper.zip > /dev/null 2>&1
